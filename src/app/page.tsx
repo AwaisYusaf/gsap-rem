@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className='min-h-screen w-full'>
-      <h1 className='text-center font-semibold text-2xl my-12'>How people are using OSO Search</h1>
+      <h1 className='text-center font-semibold lg:text-2xl text-lg lg:my-12 my-8'>How people are using OSO Search</h1>
      <ScrollAnimationSection/>
      <div className='flex justify-center space-x-1 mx-auto max-w-xl mb-4 px-4'>
       <input placeholder='Enter your email' className='basis-1/2 px-4 py-2 outline-none border border-gray-400 rounded placeholder:text-sm'/>
