@@ -98,7 +98,7 @@ function ScrollAnimationSection({}: Props) {
         <div className="relative overflow-hidden">
           <h2 className="text-center mb-4 font-semibold">OSO</h2>
           <Image
-            src="/assets/phone1.png "
+            src="/assets/phone1.png"
             className="w-60 h-auto"
             width={400}
             height={800}
