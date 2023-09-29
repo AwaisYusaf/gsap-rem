@@ -115,7 +115,7 @@ function ScrollAnimationSection({}: Props) {
             className="w-60 h-auto"
             width={400}
             height={800}
-            alt="phone"
+            alt="phone2"
           />
           <span className="absolute lg:h-fit h-60 lg:top-[40%] md:top-[30%] top-[25%] lg:px-12 md:px-6 px-3 lg:text-sm text-xs">
           {activeSectionData?.content}
