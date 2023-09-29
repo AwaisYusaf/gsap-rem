@@ -5,7 +5,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { data } from "@/constants/data";
 
-
 type Props = {};
 
 gsap.registerPlugin(ScrollTrigger);
