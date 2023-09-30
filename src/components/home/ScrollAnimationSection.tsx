@@ -80,10 +80,10 @@ function ScrollAnimationSection({ }: Props) {
   return (
     <div
       id="container"
-      className="flex mx-auto max-w-7xl space-x-12  px-8"
+      className="flex mx-auto max-w-7xl space-x-12  lg:px-8 md:px-6 px-4"
     >
       {/* {Left Section} */}
-      <div className="basis-1/2 flex flex-col space-y-6 snap-y snap-mandatory min-h-[140vh] z-0 overflow-x-hidden" id="left">
+      <div className="basis-1/2 flex flex-col space-y-6 snap-y snap-mandatory min-h-[140vh] z-0 overflow-x-hidden md:mb-0 mb-16" id="left">
         <div className="xl:h-52 lg:h-40 md:h-40 h-[20vh]" />
         {data.map((section, index) => {
           return <div key={index} id={section.id} className="lg:w-[80%] w-full flex flex-col space-y-2 opacity-20 snap-center snap-always shrink-0 ">
@@ -95,11 +95,11 @@ function ScrollAnimationSection({ }: Props) {
       </div>
       {/* {Right Section} */}
       <div
-        className="flex md:flex-row -mt-20 flex-col justify-center items-center basis-1/2 lg:space-x-4 space-x-2 h-screen w-full"
+        className="flex md:flex-row -mt-20 flex-col md:space-y-0 space-y-3 justify-center items-center basis-1/2 lg:space-x-4 space-x-2 h-screen w-full"
         id="right"
       >
         <div className="relative overflow-hidden">
-          <h2 className="text-center mb-4 font-semibold text-xl">OSO</h2>
+          <h2 className="text-center md:mb-4 mb-2 font-semibold md:text-xl text-lg">OSO</h2>
           <Image
             src="/assets/phone1.png"
             className="h-auto"
@@ -112,7 +112,7 @@ function ScrollAnimationSection({ }: Props) {
           </span>
         </div>
         <div className="relative overflow-hidden">
-          <h2 className="text-center mb-4 font-semibold text-xl">ChatGPT</h2>
+          <h2 className="text-center md:mb-4 mb-2 font-semibold md:text-xl text-lg">ChatGPT</h2>
           <Image
             src="/assets/phone2.png"
             className="h-auto"
