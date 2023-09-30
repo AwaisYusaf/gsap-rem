@@ -80,7 +80,7 @@ function ScrollAnimationSection({ }: Props) {
   return (
     <div
       id="container"
-      className="flex mx-auto max-w-7xl space-x-12  lg:px-8 md:px-6 px-4"
+      className="flex mx-auto max-w-7xl xl:space-x-12 lg:space-x-10 md:space-x-8 space-x-6 lg:px-8 md:px-6 px-4"
     >
       {/* {Left Section} */}
       <div className="basis-1/2 flex flex-col space-y-6 snap-y snap-mandatory min-h-[140vh] z-0 overflow-x-hidden md:mb-0 mb-16" id="left">
