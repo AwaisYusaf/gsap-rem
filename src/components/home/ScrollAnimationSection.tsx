@@ -84,7 +84,7 @@ function ScrollAnimationSection({ }: Props) {
     >
       {/* {Left Section} */}
       <div className="basis-1/2 flex flex-col space-y-6 snap-y snap-mandatory min-h-[140vh] z-0 overflow-x-hidden md:mb-0 mb-16" id="left">
-        <div className="xl:h-52 lg:h-40 md:h-40 h-[20vh]" />
+        <div className="xl:h-52 lg:h-40 md:h-40 h-20" />
         {data.map((section, index) => {
           return <div key={index} id={section.id} className="lg:w-[80%] w-full flex flex-col space-y-2 opacity-20 snap-center snap-always shrink-0 ">
             <h2 className="lg:text-3xl md:text-2xl text-xl font-semibold">{section.heading}</h2>
