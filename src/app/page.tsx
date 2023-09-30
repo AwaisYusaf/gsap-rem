@@ -8,7 +8,7 @@ export default function Home() {
       <ScrollAnimationSection />
       <div className='flex justify-center space-x-2 mx-auto max-w-xl my-4 px-4'>
         <input placeholder='Enter your email'
-          className='lg:w-7/12 w-6/12 lg:py-4 md:py-3 py-2 pl-5 text-base outline-none border border-black rounded-lg focus-within:ring-1 ring-[#8E33FF]' />
+          className='lg:w-7/12 w-6/12 lg:py-4 md:py-3 py-2 lg:pl-5 md:pl-4 pl-3 text-base outline-none border border-black rounded-lg focus-within:ring-1 ring-[#8E33FF]' />
         <button
           className='lg:w-5/12 w-6/12 flex justify-center items-center space-x-2 text-white  rounded-lg lg:py-4 md:py-3 py-2 hover:opacity-90 bg-[#8E33FF]'>
           <span className='lg:text-[22px] md:text-xl text-base'>Join Waitlist</span>
